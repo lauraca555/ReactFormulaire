@@ -64,16 +64,23 @@ class Formulaire extends React.Component {
                           name="firstName" 
                           className="form-control"
                           placeholder = "Firstname"  
+                        /> 
+                        <label htmlFor="firstName" className="form-label">Firstname</label>
+                        <Field 
+                          type="text" 
+                          name="firstName" 
+                          className="form-control"
+                          placeholder = "Firstname"  
                         />  
                       </div>
                 
                       <div className="mb-3 d-flex flex-column">
-                        <label htmlFor="lastName" className="form-label">Lastname</label>
+                        <label htmlFor="birthday" className="form-label">birthday</label>
                         <Field 
-                          type="text" 
-                          name="lastName" 
+                          type="date" 
+                          name="birthday" 
                           className="form-control"
-                          placeholder = "Lastname"
+                          placeholder = "birthday"
                         />
                       </div>
                     </div>
